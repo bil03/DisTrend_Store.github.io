@@ -1,0 +1,360 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.judul{
+    width: 100%;
+    height: 90px;
+    background-color:  white;
+    padding:0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+.judul h1{
+    font-family: 'Secular One', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    padding: 30px;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 17px;
+    position: fixed;
+    top: 60px;
+    box-shadow: 2px 2px #ECECEC;
+}
+.nav a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13pt;
+    text-decoration: none;
+    color: black;
+    padding-right: 50px;
+    font-weight: bold;
+}
+.nav a:hover{
+    color: #0000ff;
+    font-weight: bold;
+    transition: 0.7s;
+}
+.subjudul{
+    margin-top: 9.5%;
+    width: 100%;
+    height: 500px;
+    background: url(gambar/background.jpeg);
+    border-radius: 10px;
+}
+.subjudul h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50pt;
+    color: white;
+    padding-top: 200px;
+}
+.isi{
+    width: 100%;
+    height: 950px;
+    background-color:white;
+    padding-top: 50px;
+}
+
+.isi h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 36pt;
+    color: black;
+    text-shadow: 3px 2px 1px gainsboro;
+}
+.barang1{
+    margin-top: 40px;
+    border: 1px solid #DEE2E6;
+    box-shadow: 3px 4px #ECECEC;
+    border-radius: 10px;
+    float: left;
+    width: 20%;
+    height:280px;
+    margin-left: 120px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0px;
+}
+.barang1 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20pt;
+    color:  rgb(43, 43, 43);
+    text-shadow: none;
+    padding-top: 25px;
+}
+#gmbr1{
+    border-radius: 5px;
+    width: 100%;
+    height: 70%;
+    box-shadow: 0px 5px gainsboro;
+}
+.barang2{
+    margin-top: 40px;
+    border: 1px solid #DEE2E6;
+    box-shadow: 3px 4px #ECECEC;
+    border-radius: 10px;
+    float: left;
+    width: 20%;
+    height:280px;
+    margin-left: 175px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0px;
+}
+
+.barang2 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20pt;
+    color:rgb(43, 43, 43);
+    text-shadow: none;
+    padding-top: 25px;
+}
+#gmbr2{
+    border-radius: 5px;
+    width: 100%;
+    height: 70%;
+    box-shadow: 0px 5px gainsboro;
+}
+.barang3{
+    margin-top: 40px;
+    border: 1px solid #DEE2E6;
+    box-shadow: 3px 4px #ECECEC;
+    border-radius: 10px;
+    float: right;
+    width: 20%;
+    height:280px;
+    margin-right: 120px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0px;
+}
+.barang3 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20pt;
+    color:rgb(43, 43, 43);
+    text-shadow: none;
+    padding-top: 25px;
+}
+#gmbr3{
+    border-radius: 5px;
+    width: 100%;
+    height: 70%;
+    box-shadow: 0px 5px gainsboro;
+}
+.diskon{
+    margin-top: 70px;
+    width: 70%;
+    height: 500px;
+    background: url(gambar/diskon.jpg);
+    border-radius: 10px;
+    float: left;
+    margin-left: 200px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0px;
+}
+.diskon h1{
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40pt;
+    padding-top: 150px;
+    margin-right: 90px;
+    text-shadow: none;
+}
+.diskon p{
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20pt;
+    padding-top: 20px;
+    margin-right: 400px;
+    text-shadow: none;
+    color: #0000ff;
+}
+.buy{
+    margin-top: 40px;
+    float: right;
+    text-align: center;
+    width: 15%;
+    height:50px;
+    padding-top: 10px;
+    margin-right: 200px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0px;
+    background-color: #3d3d29;
+    color: white;
+}
+.buy:hover{
+    background-color: #0000ff;
+    transition: 0.5s;
+}
+.produk{ 
+    width: 100%;
+    height: 700px;
+    background-color:white;
+    padding-top: 50px;
+}
+.produk h1{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 30pt;
+    color: black;
+}
+.produk1{
+    border: 1px solid #DEE2E6;
+    box-shadow: 3px 4px #ECECEC;
+    border-radius: 8px;
+    margin-top: 40px;
+    float: left;
+    width: 14%;
+    height:400px;
+    margin-left: 250px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0px;
+}
+.produk1 h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15pt;
+    color:rgb(43, 43, 43);
+    text-shadow: none;
+    padding-top: 15px;
+    padding-left: 7px;
+    text-align: left;
+}
+.produk1 p{
+    margin-top: 15px;
+    padding-left: 7px;
+}
+#foto1{
+    border-radius: 8px;
+    width: 100%;
+    height: 70%;
+}
+.produk2{
+    border: 2px solid #DEE2E6;
+    box-shadow: 3px 4px #ECECEC;
+    border-radius: 8px;
+    margin-top: 40px;
+    float: left;
+    width: 14%;
+    height:400px;
+    margin-left: 54px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0px;
+}
+.produk2 h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15pt;
+    color:rgb(43, 43, 43);
+    text-shadow: none;
+    padding-top: 15px;
+    padding-left: 7px;
+    text-align: left;
+}
+.produk2 p{
+    margin-top: 15px;
+    padding-left: 7px;
+}
+#foto2{
+    border-radius: 8px;
+    width: 100%;
+    height: 70%;
+}
+.produk3{
+    border: 2px solid #DEE2E6;
+    box-shadow: 3px 4px #ECECEC;
+    border-radius: 8px;
+    margin-top: 40px;
+    float: right;
+    width: 14%;
+    height:400px;
+    margin-right: 250px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0px;
+}
+.produk3 h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15pt;
+    color:rgb(43, 43, 43);
+    text-shadow: none;
+    padding-top: 15px;
+    padding-left: 7px;
+    text-align: left;
+}
+.produk3 p{
+    margin-top: 15px;
+    padding-left: 7px;
+}
+#foto3{
+    border-radius: 8px;
+    width: 100%;
+    height: 70%;
+}
+.produk4{
+    border: 1px solid #DEE2E6;
+    box-shadow: 3px 4px #ECECEC;
+    border-radius: 8px;
+    margin-top: 40px;
+    float: right;
+    width: 14%;
+    height:400px;
+    margin-right: 54px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0px;
+}
+.produk4 h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15pt;
+    color:rgb(43, 43, 43);
+    text-shadow: none;
+    padding-top: 15px;
+    padding-left: 7px;
+    text-align: left;
+}
+.produk4 p{
+    margin-top: 15px;
+    padding-left: 7px;
+}
+#foto4{
+    border-radius: 8px;
+    width: 100%;
+    height: 70%;
+}
+.footer{
+    background-color: #ECECEC;
+    width: 100%;
+    height: 70px;
+}
+.footer p{
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 10pt;
+}
+.subjudul2{
+    margin-top: 9.5%;
+    width: 100%;
+    height: 200px;
+    background: url(gambar/background\ 2.jpeg);
+    border-radius: 10px;
+}
+.subjudul2 h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50pt;
+    color: white;
+    padding-top: 60px;
+}
